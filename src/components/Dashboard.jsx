@@ -28,6 +28,12 @@ const Dashboard = () => {
         <Link to="/schoolView" style={buttonStyle}>
           School View
         </Link>
+        <Link
+          to="https://github.com/professssor/student-teacher-management--redux.git"
+          style={buttonStyle}
+        >
+          GITHUB
+        </Link>
       </nav>
     </div>
   );
