@@ -15,7 +15,6 @@ export default function TeacherForm({
 
   return (
     <div>
-      <Dashboard />
       <h2>Add Teacher</h2>
       <form>
         <label>
