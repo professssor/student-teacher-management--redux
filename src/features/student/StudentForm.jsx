@@ -17,8 +17,7 @@ export default function StudentForm({
 
   return (
     <div style={styles.formContainer}>
-      <Dashboard />
-      <h2>Add Student</h2>
+      <h2>Add student</h2>
       <form
         style={{
           backgroundColor: "black",
@@ -62,6 +61,7 @@ export default function StudentForm({
         <label>
           Grade:
           <input
+            placeholder="enter grade number"
             type="text"
             value={newStudent.grade}
             onChange={(e) =>
@@ -95,7 +95,7 @@ export default function StudentForm({
         <label>
           studentClass
           <input
-            placeholder="enter class number"
+            placeholder="enter class in string A|B|C"
             type="text"
             value={newStudent.studentClass}
             onChange={(e) =>
